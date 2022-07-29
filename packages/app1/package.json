@@ -1,0 +1,13 @@
+{
+    "name": "@test/app1",
+    "version": "1.0.0",
+    "scripts": {
+        "postinstall": "cross-env ELECTRON_RUN_AS_NODE=1 npx --no-install electron ./postinstall.js"
+    },
+    "devDependencies": {
+        "@test/app2": "1.0.0",
+        "cross-env": "^7.0.3",
+        "electron": "19.0.9"
+        
+    }
+}

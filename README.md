@@ -1,0 +1,1 @@
+This project demonstrates that the frontend-maven-plugin has an issue when workspace package names have an "@" in its name.
